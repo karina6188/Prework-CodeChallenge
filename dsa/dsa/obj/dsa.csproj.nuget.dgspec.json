@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karin\\codefellows\\401\\Prework-CodeChallenges\\dsa\\dsa\\dsa.csproj": {}
+    "C:\\Users\\karin\\codefellows\\401\\Prework-CodeChallenge\\dsa\\dsa\\dsa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karin\\codefellows\\401\\Prework-CodeChallenges\\dsa\\dsa\\dsa.csproj": {
+    "C:\\Users\\karin\\codefellows\\401\\Prework-CodeChallenge\\dsa\\dsa\\dsa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karin\\codefellows\\401\\Prework-CodeChallenges\\dsa\\dsa\\dsa.csproj",
+        "projectUniqueName": "C:\\Users\\karin\\codefellows\\401\\Prework-CodeChallenge\\dsa\\dsa\\dsa.csproj",
         "projectName": "dsa",
-        "projectPath": "C:\\Users\\karin\\codefellows\\401\\Prework-CodeChallenges\\dsa\\dsa\\dsa.csproj",
+        "projectPath": "C:\\Users\\karin\\codefellows\\401\\Prework-CodeChallenge\\dsa\\dsa\\dsa.csproj",
         "packagesPath": "C:\\Users\\karin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karin\\codefellows\\401\\Prework-CodeChallenges\\dsa\\dsa\\obj\\",
+        "outputPath": "C:\\Users\\karin\\codefellows\\401\\Prework-CodeChallenge\\dsa\\dsa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\karin\\AppData\\Roaming\\NuGet\\NuGet.Config",
