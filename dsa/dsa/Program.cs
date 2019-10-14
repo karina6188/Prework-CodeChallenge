@@ -84,19 +84,15 @@ namespace dsa
             {
                 Console.WriteLine("Problem 2: Enter a year in 4 digit to see if it is a leap year.");
                 int year = Convert.ToInt32(Console.ReadLine());
-                string result = "No";
-                if (year % 4 == 0 || year % 400 == 0)
+                bool result = false;
+                if (year % 4 == 0)
                 {
-                    if (year % 100 != 0)
+                    if (year % 100 != 0 || year % 400 == 0)
                     {
-                        result = "Yes";
-                        Console.WriteLine(result);
+                        result = true;
                     }
-                    else
-                        Console.WriteLine(result);
                 }
-                else
-                    Console.WriteLine(result);
+                Console.WriteLine(result);
                 Console.ReadLine();
             }
         }
