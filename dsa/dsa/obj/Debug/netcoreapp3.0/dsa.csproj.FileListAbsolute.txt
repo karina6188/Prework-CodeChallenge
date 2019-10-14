@@ -9,3 +9,14 @@ C:\Users\karin\codefellows\401\Prework-CodeChallenges\dsa\dsa\bin\Debug\netcorea
 C:\Users\karin\codefellows\401\Prework-CodeChallenges\dsa\dsa\bin\Debug\netcoreapp3.0\dsa.pdb
 C:\Users\karin\codefellows\401\Prework-CodeChallenges\dsa\dsa\obj\Debug\netcoreapp3.0\dsa.dll
 C:\Users\karin\codefellows\401\Prework-CodeChallenges\dsa\dsa\obj\Debug\netcoreapp3.0\dsa.pdb
+C:\Users\karin\codefellows\401\Prework-CodeChallenge\dsa\dsa\bin\Debug\netcoreapp3.0\dsa.exe
+C:\Users\karin\codefellows\401\Prework-CodeChallenge\dsa\dsa\bin\Debug\netcoreapp3.0\dsa.deps.json
+C:\Users\karin\codefellows\401\Prework-CodeChallenge\dsa\dsa\bin\Debug\netcoreapp3.0\dsa.runtimeconfig.json
+C:\Users\karin\codefellows\401\Prework-CodeChallenge\dsa\dsa\bin\Debug\netcoreapp3.0\dsa.runtimeconfig.dev.json
+C:\Users\karin\codefellows\401\Prework-CodeChallenge\dsa\dsa\bin\Debug\netcoreapp3.0\dsa.dll
+C:\Users\karin\codefellows\401\Prework-CodeChallenge\dsa\dsa\bin\Debug\netcoreapp3.0\dsa.pdb
+C:\Users\karin\codefellows\401\Prework-CodeChallenge\dsa\dsa\obj\Debug\netcoreapp3.0\dsa.csprojAssemblyReference.cache
+C:\Users\karin\codefellows\401\Prework-CodeChallenge\dsa\dsa\obj\Debug\netcoreapp3.0\dsa.AssemblyInfoInputs.cache
+C:\Users\karin\codefellows\401\Prework-CodeChallenge\dsa\dsa\obj\Debug\netcoreapp3.0\dsa.AssemblyInfo.cs
+C:\Users\karin\codefellows\401\Prework-CodeChallenge\dsa\dsa\obj\Debug\netcoreapp3.0\dsa.dll
+C:\Users\karin\codefellows\401\Prework-CodeChallenge\dsa\dsa\obj\Debug\netcoreapp3.0\dsa.pdb
