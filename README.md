@@ -8,18 +8,9 @@ Display the array to the user and ask the user to select 1 number from the array
 Calculate the score based on the frequency of the number in the list. If the number picked appears more than once. The score will be the number selected times how many times the number appears in the array.
 
 Screen Capture of Successful Output:
-Enter 1 number between 1-10 at a time, 5 numbers total.
-1
-2
-2
-2
-3
-[1, 2, 2, 2, 3]
-Select 1 number from the array.
-2
-Your score is 6
+![Alt problem1](/captures/array_max_result.JPG)
 
-======================================================================================
+===========================================================================
 Problem 2: Leap Year Calculator
 
 Instructions:
@@ -30,6 +21,15 @@ Instructions:
    - Unless the year is also evenly divisible by 400
 
 Screen Capture of Successful Output:
-Problem 2: Enter a year in 4 digit to see if it is a leap year.
-2000
-True
+![Alt problem2](/captures/leap_year_calculator.JPG)
+
+===========================================================================
+Problem 3: Perfect Sequence
+
+Instructions:
+1) Ask the users to input 3 numbers and store them into an array.
+2) To check if this array is a perfect sequence, the values of the sum of the numbers inside the array needs to be the same as multiplying all the numbers together.
+3) If the two values match, notify the user "Yes" that the array is a perfect sequence. Otherwise, notify "No".
+
+Screen Capture of Successful Output:
+![Alt problem3](/captures/perfect_sequence.JPG)
