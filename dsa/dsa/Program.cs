@@ -16,6 +16,7 @@ namespace dsa
 
             static bool Display()
             {
+                Console.Clear();
                 Console.WriteLine("Select a problem number to test it.");
                 Console.WriteLine("1) Problem 1: Array Max Result");
                 Console.WriteLine("2) Problem 2: Leap Year Calculator");
@@ -36,7 +37,7 @@ namespace dsa
                 }
                 else if (test == "3")
                 {
-                    //Problem03();
+                    Problem03();
                     return true;
                 }
                 else if (test == "4")
@@ -56,7 +57,7 @@ namespace dsa
 
             static void Problem01()
             {
-                Console.WriteLine("Problem 1: Enter 1 number between 1-10 at a time, 5 numbers total.");
+                Console.WriteLine("Problem 1: Enter total of 5 numbers between 1-10. Enter one number at a time and press ENTER key after each entry.");
 
                 int[] array = new int[5];
                 for (int i = 0; i < array.Length; i++)
@@ -93,6 +94,33 @@ namespace dsa
                     }
                 }
                 Console.WriteLine(result);
+                Console.ReadLine();
+            }
+
+            static void Problem03()
+            {
+                Console.WriteLine("Problem 3: Enter 3 numbers, one set of numbers at a time. Press ENTER key after each entry.");
+                int[] numbers = new int[3];
+                int sum = 0;
+                int multiply = 1;
+                bool answer = false;
+                for (int i = 0; i < numbers.Length; i++)
+                {
+                    numbers[i] = int.Parse(Console.ReadLine());
+                    sum += numbers[i];
+                    multiply *= numbers[i];
+                }
+                if (sum == multiply)
+                {
+                    answer = true;
+                }
+                Console.WriteLine("These are the numbers you entered: [{0}]", string.Join(", ", numbers));
+                if (answer)
+                {
+                    Console.WriteLine("Yes");
+                }
+                else
+                    Console.WriteLine("No");
                 Console.ReadLine();
             }
         }
