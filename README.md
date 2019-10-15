@@ -33,3 +33,14 @@ Instructions:
 
 Screen Capture of Successful Output:
 ![Alt problem3](/captures/perfect_sequence.JPG)
+
+===========================================================================
+Problem 4: Sum of Rows
+
+Instructions:
+1) Ask the user to input 2 numbers. Those numbers are used to determine an array's rows and columns.
+2) Once the array is defined with the number of rows and columns, randomly generate the numbers for the columns.
+3) Sum the numbers of each column and put the results into an array. The number of results should match the number of rows.
+
+Screen Capture of Successful Output:
+![Alt problem4](/captures/sum_of_rows.JPG)
