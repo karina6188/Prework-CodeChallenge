@@ -42,7 +42,7 @@ namespace dsa
                 }
                 else if (test == "4")
                 {
-                    //Problem04();
+                    Problem04();
                     return true;
                 }
                 else if (test == "5")
@@ -121,6 +121,40 @@ namespace dsa
                 }
                 else
                     Console.WriteLine("No");
+                Console.ReadLine();
+            }
+
+            static void Problem04()
+            {
+                Console.WriteLine("Problem 4: Please specify the length and the width of the array. Enter total of 2 numbers. Press ENTER key after each entry.");
+                int[] arrayRules = new int[2];
+                for (int i = 0; i < arrayRules.Length; i++)
+                {
+                    arrayRules[i] = int.Parse(Console.ReadLine());
+                }
+                int length = arrayRules[0];
+                int width = arrayRules[1];
+
+                int[,] myArray = new int[length, width];
+
+                Random random = new Random();
+                int arrayNumbers = random.Next(1, 20);
+
+                int[] arrayColumns = new int[width];
+                int[] arrayRows = new int[length];
+                int[] result = new int[length];
+                int totalSum = 0;
+                for (int x = 0; x < length; x++)
+                {
+                    for (int y = 0; y < width; y++)
+                    {
+                        arrayColumns[y] = arrayNumbers;
+                        arrayRows[x] = arrayColumns[y];
+                        totalSum += arrayColumns[y];
+                    }
+                    result[x] = totalSum;
+                }
+                Console.WriteLine("[{0}]", string.Join(", ", result));
                 Console.ReadLine();
             }
         }
